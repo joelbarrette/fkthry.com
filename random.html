@@ -1,0 +1,87 @@
+<p class="random"> SOUND DESIGN CHALLENGE: MAKE A <span id="vibe">Vibe</span> 
+    <span id="genre">Genre</span>  
+    <span id="instrument">Instrument</span> with
+    <span id="plugin">Plugin</span> 
+  </p>
+
+<script>
+var genreList = ["House",
+"Dubstep",
+"Future Bass",
+"IDM",
+"Electro",
+"D&B"];
+var genreField = document.getElementById("genre");
+genreField.innerHTML = genreList[Math.floor(Math.random() * genreList.length)];
+
+var vibeList = ["Chill",
+"Tight",
+"Wet",
+"Warm",
+"Dry",
+"Sparkly",
+"Dreamy",
+"Airy",
+"Dark",
+"Dank",
+"Ominous",
+"Beautiful",
+"Lush",
+"Anxious",
+"Confusing",
+"Scary",
+"Sad",
+"Unstable",
+"Broken",
+"Trippy",
+"Damp",
+"Shiny",
+"Smooth",
+"Rough",
+"Huge",
+"Tiny",
+"Cute",
+"Round",
+"Evolving",
+"Glitchy",
+"Cold",
+"Noisy"]
+var vibeField = document.getElementById("vibe");
+vibeField.innerHTML = vibeList[Math.floor(Math.random() * vibeList.length)];
+
+var instrumentList = ["Bass",
+"Chord",
+"Pad",
+"Lead",
+"Kick",
+"Snare",
+"Cymbal",
+"Perc",
+"Impact",
+"Riser",
+"Atmosphere",
+"Texture",
+"Arp"];
+var instrumentField = document.getElementById("instrument");
+instrumentField.innerHTML = instrumentList[Math.floor(Math.random() * instrumentList.length)];
+
+
+var pluginList = ["Massive",
+"Operator",
+"Phaseplant",
+"Wavetable",
+"Simpler",
+"Sampler",
+"Electric",
+"Collision",
+"Analog",
+"Serum"];
+var pluginField = document.getElementById("plugin");
+pluginField.innerHTML = pluginList[Math.floor(Math.random() * pluginList.length)];
+
+
+
+
+
+
+</script>
